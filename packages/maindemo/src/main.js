@@ -6,13 +6,13 @@ registerMicroApps([
     name: 'vueApp1',
     entry: '//localhost:3001',
     container: '#app',
-    activeRule: '/app-vue1'
+    activeRule: '/micro1'
   },
   {
     name: 'vueApp2',
     entry: '//localhost:3002',
     container: '#app',
-    activeRule: '/app-vue2'
+    activeRule: '/micro2'
   }
 ])
 
