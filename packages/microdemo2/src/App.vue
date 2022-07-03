@@ -7,7 +7,7 @@ import Upload from './components/Upload.vue'
 <template>
   <h1>微应用2 - 大文件上传</h1>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <Upload msg="大文件上传" />
+  <Upload />
 </template>
 
 <style>

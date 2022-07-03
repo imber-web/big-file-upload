@@ -22,7 +22,7 @@
     originalFilename:文件原始名称,
     servicePath:文件服务器地址
 
-3.获取已经上传的切片
+3.获取已经上传的切片（断点续传）
   url:/upload_already
   method:GET
   params:

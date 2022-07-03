@@ -186,6 +186,7 @@ app.post('/upload_chunk', async (req, res) => {
     path = `${uploadDir}/${HASH}/${filename}`
     isExists = await exists(path)
     if (isExists) {
+      res.status = 500
       res.send({
         code: 0,
         codeText: 'file is exists',
